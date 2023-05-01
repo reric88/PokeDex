@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #EF2B34; */
+    background-color: #FFCC01;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #FFCC01;
+    -webkit-text-stroke-color: #395BA7;
+    -webkit-text-stroke-width: 4px;
+    text-shadow: -3px 3px 2px #17285E,
+    -2px 2px 2px #17285E,
+    -2px 0px 2px #17285E;
+    font-size: 72px;
+    /* background-color: #EF2B34; */
+    background-color: #efefef;
+    border: 5px solid #17285E;
+    padding: 10px;
+    letter-spacing: -3px;
+    border-radius: 10px;
+    transform:matrix();
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid #17285E; */
+
+}
+
+.pokemon {
+    background-color: #395BA7;
+    width: 175px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid #17285E;
+}
+
+.img-container {
+    background-color: #17285E;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.name {
+    color: #17285E;
+    margin-bottom: 0;
+}
+
+textPath {
+    font-weight: bold;
+    letter-spacing: -6px;
+    /* color: #FFCC01; */
+    fill: #FFCC01;
+    -webkit-text-stroke-color: #395BA7;
+    -webkit-text-stroke-width: 4px;
+    text-shadow: 
+    -3px 3px 1px #395BA7,
+    -3px -3px 1px #395BA7,
+     3px 3px 1px #395BA7,
+     3px -3px 1px #395BA7,
+     0px -3px 1px #395BA7,
+     0px 3px 1px #395BA7,
+     3px 0px 1px #395BA7,
+     -3px -0px 1px #395BA7,
+    -10px 8px 1px #17285E,
+    -10px 6px 1px #17285E,
+    -11px 3px 1px #17285E,
+    -10px 3px 1px #17285E,
+    -10px -3px 1px #17285E;
+    font-size: 72px;
+}
